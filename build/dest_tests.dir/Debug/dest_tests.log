@@ -1,0 +1,18 @@
+﻿Build started 2018/5/16 0:12:11.
+     1>Project "D:\Workplace\DEST\dest-wqy-2\build\dest_tests.vcxproj" on node 5 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include" /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv" /I"D:\Workplace\DEST\dest-wqy-2\build" /I"D:\软件\eigen-eigen-5a0156e40feb" /I"D:\Workplace\DEST\dest-wqy-2\inc" /I"D:\Workplace\DEST\dest-wqy-2\ext" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dest_tests.dir\Debug\\" /Fd"dest_tests.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "D:\Workplace\DEST\dest-wqy-2\tests\test_transform.cpp"
+         test_transform.cpp
+     1>D:\Workplace\DEST\dest-wqy-2\tests\test_transform.cpp(33): error C2664: 'bool Eigen::Transform<float,3,18,0>::isApprox(const Eigen::Transform<float,3,18,0> &,const float &) const' : cannot convert argument 1 from 'Eigen::AffineCompact2f' to 'const Eigen::Transform<float,3,18,0> &'
+                 Reason: cannot convert from 'Eigen::AffineCompact2f' to 'const Eigen::Transform<float,3,18,0>'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>D:\Workplace\DEST\dest-wqy-2\tests\test_transform.cpp(33): error C2228: left of '.endExpression' must have class/struct/union
+     1>D:\Workplace\DEST\dest-wqy-2\tests\test_transform.cpp(52): error C2664: 'bool Eigen::Transform<float,3,18,0>::isApprox(const Eigen::Transform<float,3,18,0> &,const float &) const' : cannot convert argument 1 from 'Eigen::AffineCompact2f' to 'const Eigen::Transform<float,3,18,0> &'
+                 Reason: cannot convert from 'Eigen::AffineCompact2f' to 'const Eigen::Transform<float,3,18,0>'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>D:\Workplace\DEST\dest-wqy-2\tests\test_transform.cpp(52): error C2228: left of '.endExpression' must have class/struct/union
+     1>Done Building Project "D:\Workplace\DEST\dest-wqy-2\build\dest_tests.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.94

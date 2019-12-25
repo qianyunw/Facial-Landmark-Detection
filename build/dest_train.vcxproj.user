@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--load-max-size 640 --train-num-cascades 10 --rectangles D:\Workplace\DEST\dest-wqy\build\Debug\AFLW500\rectangles.csv --create-num-shapes 60 --train-num-pixels 600 --train-num-splits 40 --train-max-depth 5 --train-learn 0.15 D:\Workplace\DEST\dest-wqy\build\Debug\AFLW500 --output D:\Workplace\DEST\dest-wqy\build\Debug_500\dest_500.bin</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

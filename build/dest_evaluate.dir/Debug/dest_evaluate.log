@@ -1,0 +1,10 @@
+﻿Build started 2018/5/16 0:15:36.
+     1>Project "D:\Workplace\DEST\dest-wqy-2\build\dest_evaluate.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workplace\DEST\dest-wqy-2\build\Debug\dest_evaluate.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\MATLAB\R2016a\extern\lib\win64\microsoft Debug\dest.lib "D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\opencv_world310d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib libmat.lib libmx.lib libmex.lib libeng.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Workplace/DEST/dest-wqy-2/build/Debug/dest_evaluate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Workplace/DEST/dest-wqy-2/build/Debug/dest_evaluate.lib" /MACHINE:X64  /machine:x64 dest_evaluate.dir\Debug\dest_evaluate.obj
+         dest_evaluate.vcxproj -> D:\Workplace\DEST\dest-wqy-2\build\Debug\dest_evaluate.exe
+     1>Done Building Project "D:\Workplace\DEST\dest-wqy-2\build\dest_evaluate.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86

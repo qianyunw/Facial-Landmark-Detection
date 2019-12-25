@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--load-max-size 640 -r D:\Workplace\DEST\dest-wqy\build\Debug\AFLW300TEST\rectangles.csv D:\Workplace\DEST\dest-wqy\build\Debug\AFLW300TEST  -t D:\Workplace\DEST\dest-wqy\build\dest_250.bin</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

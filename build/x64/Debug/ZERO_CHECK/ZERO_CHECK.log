@@ -1,0 +1,10 @@
+﻿Build started 2018/5/15 22:30:34.
+     1>Project "D:\Workplace\DEST\dest-wqy-2\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because D:/Workplace/DEST/dest-wqy-2/build/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "D:\Workplace\DEST\dest-wqy-2\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59

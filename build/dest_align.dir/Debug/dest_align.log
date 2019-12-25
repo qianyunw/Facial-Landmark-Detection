@@ -1,0 +1,13 @@
+﻿Build started 2018/5/17 20:44:37.
+     1>Project "D:\Workplace\DEST\dest-wqy-2\build\dest_align.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include" /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv" /I"D:\Workplace\DEST\dest-wqy-2\build" /I"D:\软件\eigen-eigen-5a0156e40feb" /I"D:\Workplace\DEST\dest-wqy-2\inc" /I"D:\Workplace\DEST\dest-wqy-2\ext" /ID:\MATLAB\R2016a\extern\include\win64 /ID:\MATLAB\R2016a\extern\include /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dest_align.dir\Debug\\" /Fd"dest_align.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "D:\Workplace\DEST\dest-wqy-2\examples\dest_align.cpp"
+         dest_align.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workplace\DEST\dest-wqy-2\build\Debug\dest_align.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\MATLAB\R2016a\extern\lib\win64\microsoft Debug\dest.lib "D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\opencv_world310d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib libmat.lib libmx.lib libmex.lib libeng.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Workplace/DEST/dest-wqy-2/build/Debug/dest_align.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Workplace/DEST/dest-wqy-2/build/Debug/dest_align.lib" /MACHINE:X64  /machine:x64 dest_align.dir\Debug\dest_align.obj
+         dest_align.vcxproj -> D:\Workplace\DEST\dest-wqy-2\build\Debug\dest_align.exe
+     1>Done Building Project "D:\Workplace\DEST\dest-wqy-2\build\dest_align.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.93

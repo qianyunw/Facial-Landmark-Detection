@@ -1,0 +1,24 @@
+﻿Build started 2018/5/16 0:15:33.
+     1>Project "D:\Workplace\DEST\dest-wqy-2\build\dest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include" /I"D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv" /I"D:\Workplace\DEST\dest-wqy-2\build" /I"D:\软件\eigen-eigen-5a0156e40feb" /I"D:\Workplace\DEST\dest-wqy-2\inc" /I"D:\Workplace\DEST\dest-wqy-2\ext" /ID:\MATLAB\R2016a\extern\include /ID:\MATLAB\R2016a\extern\include\win64 /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"dest.dir\Debug\\" /Fd"dest.dir\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "D:\Workplace\DEST\dest-wqy-2\src\core\tester.cpp"
+         tester.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"D:\Workplace\DEST\dest-wqy-2\build\Debug\dest.lib" /LIBPATH:D:\MATLAB\R2016a\extern\lib\win64\microsoft /NOLOGO /MACHINE:X64  /machine:x64 dest.dir\Debug\shape.obj
+         dest.dir\Debug\image.obj
+         dest.dir\Debug\training_data.obj
+         dest.dir\Debug\tracker.obj
+         dest.dir\Debug\regressor.obj
+         dest.dir\Debug\tree.obj
+         dest.dir\Debug\tester.obj
+         dest.dir\Debug\rect_io.obj
+         dest.dir\Debug\database_io.obj
+         dest.dir\Debug\face_detector.obj
+         dest.dir\Debug\draw.obj
+         dest.dir\Debug\glob.obj
+         dest.vcxproj -> D:\Workplace\DEST\dest-wqy-2\build\Debug\dest.lib
+     1>Done Building Project "D:\Workplace\DEST\dest-wqy-2\build\dest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.59

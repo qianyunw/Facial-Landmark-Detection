@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\training_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\regressor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tester.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\io\rect_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\io\database_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\face\face_detector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\util\draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\util\glob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\dest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\build\dest\core\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\training_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\regressor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tester.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\face\face_detector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\database_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\dest_io_generated.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\matrix_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\rect_io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\glob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\dest_io.fbs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{14FC1189-1382-3D6A-8F8A-E37BC42200D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{36F636C0-9B10-38B0-B537-6A21FE91AA57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

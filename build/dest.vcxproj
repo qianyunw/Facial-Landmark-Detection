@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E5C33DC1-3DFC-3341-A1EA-FEFCC5113664}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>dest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Workplace\DEST\dest-wqy-2\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">dest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Workplace\DEST\dest-wqy-2\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">dest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Workplace\DEST\dest-wqy-2\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">dest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Workplace\DEST\dest-wqy-2\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">dest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;D:\MATLAB\R2016a\extern\include;D:\MATLAB\R2016a\extern\include\win64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalLibraryDirectories>D:\MATLAB\R2016a\extern\lib\win64\microsoft;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\include\opencv;D:\Workplace\DEST\dest-wqy-2\build;D:\软件\eigen-eigen-5a0156e40feb;D:\Workplace\DEST\dest-wqy-2\inc;D:\Workplace\DEST\dest-wqy-2\ext;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Workplace/DEST/dest-wqy-2 -BD:/Workplace/DEST/dest-wqy-2/build --check-stamp-file D:/Workplace/DEST/dest-wqy-2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig-version.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Workplace/DEST/dest-wqy-2 -BD:/Workplace/DEST/dest-wqy-2/build --check-stamp-file D:/Workplace/DEST/dest-wqy-2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig-version.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Workplace/DEST/dest-wqy-2 -BD:/Workplace/DEST/dest-wqy-2/build --check-stamp-file D:/Workplace/DEST/dest-wqy-2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig-version.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\bin\cmake.exe -HD:/Workplace/DEST/dest-wqy-2 -BD:/Workplace/DEST/dest-wqy-2/build --check-stamp-file D:/Workplace/DEST/dest-wqy-2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Workplace/DEST/dest-wqy-2/CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeSystem.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCCompiler.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeCXXCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\3.10.2\CMakeRCCompiler.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig-version.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\软件\Opencv3.1.0_vc12_vc14\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in;D:\Workplace\DEST\dest-wqy-2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Workplace\DEST\dest-wqy-2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\dest.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\config.h.in" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\build\dest\core\config.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\shape.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\image.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\training_data.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tracker.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\regressor.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tree.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\core\tester.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\face\face_detector.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\database_io.h" />
+    <None Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\dest_io.fbs" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\dest_io_generated.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\matrix_io.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\io\rect_io.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\draw.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\log.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\convert.h" />
+    <ClInclude Include="D:\Workplace\DEST\dest-wqy-2\inc\dest\util\glob.h" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\shape.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\image.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\training_data.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tracker.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\regressor.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tree.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\core\tester.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\io\rect_io.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\io\database_io.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\face\face_detector.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\util\draw.cpp" />
+    <ClCompile Include="D:\Workplace\DEST\dest-wqy-2\src\util\glob.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Workplace\DEST\dest-wqy-2\build\ZERO_CHECK.vcxproj">
+      <Project>{9BC2C9ED-99A4-374F-93E8-2F9D64F7096D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
